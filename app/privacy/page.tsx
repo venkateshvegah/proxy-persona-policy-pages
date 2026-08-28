@@ -41,7 +41,7 @@ export default function PrivacyPolicy() {
         </Link>
         <div className="flex items-center gap-2 text-sm font-semibold text-foreground">
           <ShieldCheck className="w-5 h-5 text-primary" />
-          Proxy Persona Privacy
+          Proxy Personas Privacy
         </div>
       </nav>
 
@@ -67,7 +67,7 @@ export default function PrivacyPolicy() {
           {/* Introduction */}
           <motion.div variants={itemVariants} className="prose prose-zinc dark:prose-invert max-w-none">
             <p className="text-lg leading-relaxed text-foreground">
-              Welcome to <strong>Proxy Persona</strong>. We respect your privacy and are committed to protecting the personal data you share with us. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application and associated web services (collectively, the "Services").
+              Welcome to <strong>Proxy Personas</strong>. We respect your privacy and are committed to protecting the personal data you share with us. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application and associated web services (collectively, the "Services").
             </p>
           </motion.div>
 
@@ -80,7 +80,7 @@ export default function PrivacyPolicy() {
             content={
               <ul className="space-y-4 mt-4 list-disc pl-6 text-muted-foreground">
                 <li><strong>Account Information:</strong> When you sign up via Apple Sign-In, Google OAuth, or email, we collect your name, email address, and basic profile information.</li>
-                <li><strong>Voice and Audio Data:</strong> Because Proxy Persona enables live AI voice calls and custom voice generation, we temporarily access and process your microphone audio to deliver the core service. We also store the voice samples you explicitly upload for custom persona creation.</li>
+                <li><strong>Voice and Audio Data:</strong> Because Proxy Personas enables live AI voice calls and custom voice generation, we temporarily access and process your microphone audio to deliver the core service. We also store the voice samples you explicitly upload for custom persona creation.</li>
                 <li><strong>Call Transcripts & History:</strong> We maintain a record of your call history, including text transcriptions of your interactions with AI avatars, to provide you with historical context.</li>
                 <li><strong>Avatar Configuration:</strong> The instructions, personality traits, and custom prompts you create for your digital avatars are stored on our servers.</li>
                 <li><strong>Billing Data:</strong> If you purchase credits or a subscription, transaction history is recorded. Payment processing is handled by secure third-party providers (e.g., Apple/Google App Stores) and we do not store full credit card details.</li>
@@ -95,7 +95,7 @@ export default function PrivacyPolicy() {
             title="2. How We Use Your Information"
             content={
               <ul className="space-y-4 mt-4 list-disc pl-6 text-muted-foreground">
-                <li>To provide, operate, and maintain the Proxy Persona application.</li>
+                <li>To provide, operate, and maintain the Proxy Personas application.</li>
                 <li>To process audio input and generate real-time AI responses during live interactions.</li>
                 <li>To sync your personalized avatars, call histories, and settings across your devices.</li>
                 <li>To process billing transactions and manage your credit balance.</li>
@@ -160,8 +160,8 @@ export default function PrivacyPolicy() {
             content={
               <div className="space-y-4 mt-4 text-muted-foreground">
                 <p>If you have questions or comments about this Privacy Policy, please contact us at:</p>
-                <a href="mailto:privacy@proxypersona.com" className="inline-flex items-center gap-2 text-primary font-medium hover:underline">
-                  privacy@proxypersona.com
+                <a href="mailto:Support@vegah.com" className="inline-flex items-center gap-2 text-primary font-medium hover:underline">
+                  Support@vegah.com
                 </a>
               </div>
             }
@@ -170,7 +170,7 @@ export default function PrivacyPolicy() {
       </main>
 
       <footer className="w-full border-t border-border py-8 text-center text-muted-foreground flex flex-col items-center gap-4 bg-card/50 mt-12">
-        <p className="text-sm">© {new Date().getFullYear()} Proxy Persona. All rights reserved.</p>
+        <p className="text-sm">© {new Date().getFullYear()} Proxy Personas. All rights reserved.</p>
       </footer>
     </div>
   );

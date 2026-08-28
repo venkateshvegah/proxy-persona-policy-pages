@@ -38,9 +38,9 @@ export default function Home() {
           className="flex items-center gap-3 w-1/3"
         >
           <div className="relative w-10 h-10 overflow-hidden rounded-xl bg-card shadow-sm border border-border flex items-center justify-center p-1">
-             <Image src="/proxy-persona-logo.png" alt="Proxy Persona Logo" width={32} height={32} className="object-contain" />
+             <Image src="/proxy-persona-logo.png" alt="Proxy Personas Logo" width={32} height={32} className="object-contain" />
           </div>
-          <span className="font-bold text-xl tracking-tight">Proxy Persona</span>
+          <span className="font-bold text-xl tracking-tight">Proxy Personas</span>
         </motion.div>
 
         <motion.div 
@@ -138,7 +138,7 @@ export default function Home() {
            <Shield className="w-4 h-4" />
            <span>Privacy First. Your personas are securely stored.</span>
         </div>
-        <p className="text-sm">© {new Date().getFullYear()} Proxy Persona. All rights reserved.</p>
+        <p className="text-sm">© {new Date().getFullYear()} Proxy Personas. All rights reserved.</p>
       </footer>
     </div>
   );

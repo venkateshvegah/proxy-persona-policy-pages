@@ -41,7 +41,7 @@ export default function TermsAndConditions() {
         </Link>
         <div className="flex items-center gap-2 text-sm font-semibold text-foreground">
           <Scale className="w-5 h-5 text-primary" />
-          Proxy Persona Terms
+          Proxy Personas Terms
         </div>
       </nav>
 
@@ -67,7 +67,7 @@ export default function TermsAndConditions() {
           {/* Introduction */}
           <motion.div variants={itemVariants} className="prose prose-zinc dark:prose-invert max-w-none">
             <p className="text-lg leading-relaxed text-foreground">
-              These Terms of Service ("Terms") govern your use of the <strong>Proxy Persona</strong> application and associated services (collectively, the "Services") provided by Vegah LLC ("we", "us", or "our"). By accessing or using our Services, you agree to be bound by these Terms.
+              These Terms of Service ("Terms") govern your use of the <strong>Proxy Personas</strong> application and associated services (collectively, the "Services") provided by Vegah LLC ("we", "us", or "our"). By accessing or using our Services, you agree to be bound by these Terms.
             </p>
           </motion.div>
 
@@ -90,9 +90,9 @@ export default function TermsAndConditions() {
             title="2. Acceptable Use of AI Features"
             content={
               <div className="space-y-4 mt-4 text-muted-foreground">
-                <p>Proxy Persona provides powerful AI tools to generate voice avatars and participate in live calls. You are strictly prohibited from using our Services to:</p>
+                <p>Proxy Personas provides powerful AI tools to generate voice avatars and participate in live calls. You are strictly prohibited from using our Services to:</p>
                 <ul className="list-disc pl-6 space-y-2">
-                  <li>Generate audio or avatars that impersonate real, living individuals without their explicit, written consent (deepfakes).</li>
+                  <li>Generate audio or avatars that impersonate real individuals without their explicit consent, or in the case of deceased individuals, without the consent of their authorized representatives or family members.</li>
                   <li>Create or distribute content that is defamatory, hateful, abusive, illegal, or harassing.</li>
                   <li>Use the AI avatars for fraudulent activities, phishing, or scamming third parties.</li>
                   <li>Bypass or attempt to bypass safety filters implemented within the AI models.</li>
@@ -108,7 +108,7 @@ export default function TermsAndConditions() {
             title="3. Intellectual Property Rights"
             content={
               <div className="space-y-4 mt-4 text-muted-foreground">
-                <p><strong>Our Rights:</strong> We retain all rights, title, and interest in and to the Proxy Persona application, the underlying AI models, and the generated voice synthesis technology.</p>
+                <p><strong>Our Rights:</strong> We retain all rights, title, and interest in and to the Proxy Personas application, the underlying AI models, and the generated voice synthesis technology.</p>
                 <p><strong>Your Rights:</strong> You retain ownership over the original text prompts and specific avatar identity configurations you submit. You are granted a limited, non-exclusive license to use the generated audio for personal, non-commercial purposes, unless specified otherwise in a commercial subscription plan.</p>
               </div>
             }
