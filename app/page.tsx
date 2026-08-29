@@ -48,6 +48,9 @@ export default function Home() {
           animate={{ opacity: 1, y: 0 }}
           className="hidden md:flex flex-1 justify-center items-center gap-8 text-sm font-medium"
         >
+           <Link href="/delete-account" className="text-muted-foreground hover:text-primary transition-colors">
+            Account Deletion
+          </Link>
           <Link href="/privacy" className="text-muted-foreground hover:text-primary transition-colors">
             Privacy Policy
           </Link>
